@@ -1,0 +1,8 @@
+!
+! Make Caps Lock as an additional Control.
+!
+remove Lock = Caps_Lock
+add Control = Caps_Lock
+
+! FreeNX 
+keycode 123 = backslash underscore

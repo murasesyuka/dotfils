@@ -1,0 +1,34 @@
+[user]
+	name = murase_syuka
+	email = murase.syuka+github@gmail.com
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+[alias]
+        s = status
+                st = status
+                ci = commit
+                co = checkout
+        cob = checkout -b
+                br = branch
+                sh = !git-sh
+        a = add
+        aa = add -A
+        b = branch
+        sa = stash
+        sap = stash pop
+        di = diff
+        dic = diff --cached
+        r = reset
+        svnci = svn dcommit
+        svnre = svn rebase
+        m = merge
+[giggle]
+	main-window-maximized = true
+	main-window-geometry = 0x0+0+0
+	history-view-vpane-position = 220
+	file-view-vpane-position = 452
+	main-window-view = HistoryView
+	file-view-hpane-position = 180
+	show-graph = true

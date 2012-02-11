@@ -136,6 +136,8 @@ export PATH=$SCALA_HOME/bin:$PATH
 export COFFEE_SCRIPT_HOME=~/.npm/coffee-script/1.1.1/package
 export PATH=$COFFEE_SCRIPT_HOME/bin:$PATH
 
+# pythonbrew
+[[ -s $HOME/.pythonbrew/etc/bashrc ]] && source $HOME/.pythonbrew/etc/bashrc
 
 # RVM
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"  # This loads RVM into a shell session.

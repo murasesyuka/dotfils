@@ -82,17 +82,22 @@ alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
 
+# git
 alias g='git'
+alias gg='giggle'
+
+# Ruby
 alias rvm18='rvm use 1.8.7'
 alias rvm19='rvm use 1.9.2'
 alias rvmjr='rvm use jruby'
 alias rvmrbx='rvm use rbx'
 alias r='rails'
 
+# Python
+alias pyvm='pythonbrew'
+
 alias pg='ps aux | grep'
 alias fg='find . -type f | xargs grep -H'
-
-alias gg='giggle'
 
 alias s='screen'
 

@@ -82,7 +82,7 @@ alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
 
-alias df='ls -h'
+alias df='df -h'
 
 # git
 alias g='git'

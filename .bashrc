@@ -82,7 +82,7 @@ alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
 
-alias df='df -h'
+alias d='df -ah'
 
 # git
 alias g='git'
@@ -104,9 +104,10 @@ alias fg='find . -type f | xargs grep -H'
 alias s='screen'
 
 # Emacs
-alias e='emacs'
+alias em='emacs'
 alias nw='emacsclient --alternate-editor="" -t'
 alias cl='emacsclient --alternate-editor="" -nc'
+alias e='nw'
 export EDITOR=emacsclient
 export VISUAL=emacsclient
 

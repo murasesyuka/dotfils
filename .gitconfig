@@ -32,3 +32,5 @@
 	main-window-view = HistoryView
 	file-view-hpane-position = 180
 	show-graph = true
+[core]
+	pager = lv -c

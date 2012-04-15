@@ -98,16 +98,16 @@ alias r='rails'
 # Python
 alias pyvm='pythonbrew'
 
+
 alias pg='ps aux | grep'
 alias fg='find . -type f | xargs grep -H'
 
 alias s='screen'
 
 # Emacs
-alias em='emacs'
+alias e='emacs'
 alias nw='emacsclient --alternate-editor="" -t'
 alias cl='emacsclient --alternate-editor="" -nc'
-alias e='nw'
 export EDITOR=emacsclient
 export VISUAL=emacsclient
 
@@ -144,8 +144,20 @@ export PATH=$SCALA_HOME/bin:$PATH
 export COFFEE_SCRIPT_HOME=~/.npm/coffee-script/1.1.1/package
 export PATH=$COFFEE_SCRIPT_HOME/bin:$PATH
 
+# NVM
+if [ -f ~/.nvm/nvm.sh ]; then
+    . ~/.nvm/nvm.sh
+fi
+
 # pythonbrew
 [[ -s $HOME/.pythonbrew/etc/bashrc ]] && source $HOME/.pythonbrew/etc/bashrc
+
+# virtualenv
+export VIRTUALENV_USE_DISTRIBUTE=true
+if [ -f /usr/local/bin/virtualenvwrapper.sh ]; then
+    export WORKON_HOME=$HOME/.virtualenvs
+    source /usr/local/bin/virtualenvwrapper.sh
+fi
 
 # RVM
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"  # This loads RVM into a shell session.

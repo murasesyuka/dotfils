@@ -105,9 +105,8 @@ alias fg='find . -type f | xargs grep -H'
 alias s='screen'
 
 # Emacs
-alias e='emacs'
-alias nw='emacsclient --alternate-editor="" -t'
-alias cl='emacsclient --alternate-editor="" --create-frame'
+alias nw='emacsclient --alternate-editor="" -t'		   # CUI
+alias e='emacsclient --alternate-editor="" --create-frame' # GUI
 export EDITOR=emacsclient
 export VISUAL=emacsclient
 

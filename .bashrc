@@ -107,7 +107,7 @@ alias s='screen'
 # Emacs
 alias e='emacs'
 alias nw='emacsclient --alternate-editor="" -t'
-alias cl='emacsclient --alternate-editor="" -nc'
+alias cl='emacsclient --alternate-editor="" --create-frame'
 export EDITOR=emacsclient
 export VISUAL=emacsclient
 

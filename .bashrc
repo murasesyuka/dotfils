@@ -99,8 +99,8 @@ alias r='rails'
 alias pyvm='pythonbrew'
 
 
-alias pg='ps aux | grep'
-alias fg='find . -type f | xargs grep -H'
+alias pgrep='ps aux | grep'
+alias fgrep='find . -type f | xargs grep -H'
 
 alias s='screen'
 

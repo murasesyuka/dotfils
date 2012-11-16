@@ -1,3 +1,7 @@
+
+
+
+
 # ~/.bashrc: executed by bash(1) for non-login shells.
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
@@ -99,8 +103,9 @@ alias r='rails'
 alias pyvm='pythonbrew'
 
 
-alias pgrep='ps aux | grep'
-alias fgrep='find . -type f | xargs grep -H'
+alias psgrep='ps aux | grep'
+alias findgrep='find . -type f | xargs grep -H'
+alias llgrep='ll | grep'
 
 alias s='screen'
 

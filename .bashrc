@@ -99,8 +99,8 @@ alias rvmjr='rvm use jruby'
 alias rvmrbx='rvm use rbx'
 alias r='rails'
 
-# Python
-alias pyvm='pythonbrew'
+# Python ### discontinued project
+### alias pyvm='pythonbrew'
 
 
 alias psgrep='ps aux | grep'
@@ -153,8 +153,8 @@ if [ -f ~/.nvm/nvm.sh ]; then
     . ~/.nvm/nvm.sh
 fi
 
-# pythonbrew
-[[ -s $HOME/.pythonbrew/etc/bashrc ]] && source $HOME/.pythonbrew/etc/bashrc
+# pythonbrew ### discontinued project
+### [[ -s $HOME/.pythonbrew/etc/bashrc ]] && source $HOME/.pythonbrew/etc/bashrc
 
 # virtualenv
 export VIRTUALENV_USE_DISTRIBUTE=true

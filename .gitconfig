@@ -24,13 +24,5 @@
         svnci = svn dcommit
         svnre = svn rebase
         m = merge
-[giggle]
-	main-window-maximized = true
-	main-window-geometry = 0x0+0+0
-	history-view-vpane-position = 220
-	file-view-vpane-position = 452
-	main-window-view = HistoryView
-	file-view-hpane-position = 180
-	show-graph = true
 [core]
 	pager = lv -c

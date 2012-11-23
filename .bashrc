@@ -145,12 +145,23 @@ export PATH=$SCALA_HOME/bin:$PATH
 
 
 # coffee-script
-export COFFEE_SCRIPT_HOME=~/.npm/coffee-script/1.1.1/package
-export PATH=$COFFEE_SCRIPT_HOME/bin:$PATH
+# export COFFEE_SCRIPT_HOME=~/.npm/coffee-script/1.1.1/package
+# export PATH=$COFFEE_SCRIPT_HOME/bin:$PATH
 
 # NVM
 if [ -f ~/.nvm/nvm.sh ]; then
-    . ~/.nvm/nvm.sh
+    source ~/.nvm/nvm.sh
+    export NODE_PATH=${NVM_PATH}_modules
+
+
+  # if which nvm >/dev/null 2>&1 ;then
+  #   _nodejs_use_version="v0.4.0"
+  #   if nvm ls | grep -F -e "${_nodejs_use_version}" >/dev/null 2>&1 ;then
+  #     nvm use "${_nodejs_use_version}" >/dev/null
+  #     export NODE_PATH=${NVM_PATH}_modules${NODE_PATH:+:}${NODE_PATH}
+  #   fi
+  #   unset _nodejs_use_version
+  # fi
 fi
 
 # pythonbrew ### discontinued project

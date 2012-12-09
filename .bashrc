@@ -132,8 +132,11 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
     . /etc/bash_completion
 fi
 
+# self build
+export PATH=$HOME/local:$PATH
+
 # sbt0.7.4
-PATH=$HOME/bin:$PATH
+export PATH=$HOME/bin:$PATH
 
 # # scala2.8.1.final
 # export SCALA_HOME=/opt/scala-2.8.1.final

@@ -133,7 +133,7 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
 fi
 
 # self build
-export PATH=$HOME/local:$PATH
+export PATH=$HOME/local/bin:$PATH
 
 # sbt0.7.4
 export PATH=$HOME/bin:$PATH

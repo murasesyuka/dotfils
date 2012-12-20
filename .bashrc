@@ -132,8 +132,14 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
     . /etc/bash_completion
 fi
 
-# self build
+### self build
+# testing      build
+export PATH=/usr/local/llvm-3.1/bin:$PATH
+# experimental build
 export PATH=$HOME/local/bin:$PATH
+
+###
+
 
 # sbt0.7.4
 export PATH=$HOME/bin:$PATH
@@ -145,11 +151,6 @@ export PATH=$HOME/bin:$PATH
 # SVM
 export SCALA_HOME=~/.svm/current/rt
 export PATH=$SCALA_HOME/bin:$PATH
-
-
-# coffee-script
-# export COFFEE_SCRIPT_HOME=~/.npm/coffee-script/1.1.1/package
-# export PATH=$COFFEE_SCRIPT_HOME/bin:$PATH
 
 # NVM
 if [ -f ~/.nvm/nvm.sh ]; then

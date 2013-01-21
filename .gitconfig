@@ -16,6 +16,7 @@
         a = add
         aa = add -A
         b = branch
+	        ba = branch -a
         sa = stash
         sap = stash pop
         di = diff
@@ -26,3 +27,6 @@
         m = merge
 [core]
 	pager = lv -c
+[merge]
+        ff = false
+

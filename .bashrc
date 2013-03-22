@@ -133,6 +133,7 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
 fi
 
 ### self build
+export PATH=/usr/local/emacs/bin:$PATH # => 24.2
 # testing      build
 export PATH=/usr/local/cmake-2.8.10/bin:$PATH
 

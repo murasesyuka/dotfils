@@ -22,7 +22,7 @@
         di = diff
         dic = diff --cached
         r = reset
-        svnci = svn dcommit
+        svnci = svn dcommit -e
         svnre = svn rebase
         m = merge
 [core]

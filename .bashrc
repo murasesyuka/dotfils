@@ -135,6 +135,7 @@ fi
 ### self build
 export PATH=/usr/local/emacs/bin:$PATH # => 24.2
 # testing      build
+export PATH=$HOME/git/mruby/bin:$PATH
 export PATH=/usr/local/cmake-2.8.10/bin:$PATH
 
 export PATH=/usr/local/llvm-3.1/bin:$PATH

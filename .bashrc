@@ -93,8 +93,7 @@ alias g='git'
 alias gg='giggle'
 
 # Ruby
-alias rvm19='rvm use 1.9.3'
-alias rvm2='rvm use 2.0.0-preview1'
+alias rvm2='rvm use 2.0'
 alias rvmjr='rvm use jruby'
 alias rvmrbx='rvm use rbx'
 alias r='rails'

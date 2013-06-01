@@ -108,6 +108,9 @@ alias llgrep='ll | grep'
 
 alias s='screen'
 
+# vim
+alias v='vim'
+
 # Emacs
 alias nw='emacsclient --alternate-editor="" -t'		   # CUI
 alias e='emacsclient --alternate-editor="" --create-frame' # GUI

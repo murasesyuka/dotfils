@@ -90,7 +90,7 @@ alias d='df -ah'
 
 # git
 alias g='git'
-alias gg='giggle'
+alias t='tig'
 
 # Ruby
 alias rvm2='rvm use 2.0'

@@ -106,8 +106,6 @@ alias psgrep='ps aux | grep'
 alias findgrep='find . -type f | xargs grep -H'
 alias llgrep='ll | grep'
 
-alias s='screen'
-
 # vim
 alias v='vim'
 

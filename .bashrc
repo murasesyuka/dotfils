@@ -88,6 +88,15 @@ alias l='ls -CF'
 
 alias d='df -ah'
 
+
+### history customs
+
+export HISTIGNORE="fg*:bg*:history*:cd*:"
+HISTIGNORE+="ll:la:l:"
+HISTSIZE=10000
+#export HISTTIMEFORMAT='%Y%m%d %T';
+
+
 # git
 alias g='git'
 alias t='tig'

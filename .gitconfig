@@ -25,6 +25,7 @@
         svnci = svn dcommit -e
         svnre = svn rebase
         m = merge
+        pullup = pull --ff-only upstream master
 [core]
 	pager = lv -c
 [merge]

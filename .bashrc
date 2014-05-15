@@ -102,9 +102,6 @@ alias g='git'
 alias t='tig'
 
 # Ruby
-alias rvm2='rvm use 2.0'
-alias rvmjr='rvm use jruby'
-alias rvmrbx='rvm use rbx'
 alias r='rails'
 
 # Python ### discontinued project
@@ -192,5 +189,3 @@ if [ -f /usr/local/bin/virtualenvwrapper.sh ]; then
     source /usr/local/bin/virtualenvwrapper.sh
 fi
 
-# RVM
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"  # This loads RVM into a shell session.

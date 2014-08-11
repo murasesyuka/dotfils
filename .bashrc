@@ -179,13 +179,4 @@ if [ -f ~/.nvm/nvm.sh ]; then
   # fi
 fi
 
-# pythonbrew ### discontinued project
-### [[ -s $HOME/.pythonbrew/etc/bashrc ]] && source $HOME/.pythonbrew/etc/bashrc
-
-# virtualenv
-export VIRTUALENV_USE_DISTRIBUTE=true
-if [ -f /usr/local/bin/virtualenvwrapper.sh ]; then
-    export WORKON_HOME=$HOME/.virtualenvs
-    source /usr/local/bin/virtualenvwrapper.sh
-fi
 

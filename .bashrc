@@ -152,15 +152,5 @@ export PATH=$HOME/local/bin:$PATH
 ###
 
 
-# sbt0.7.4
-export PATH=$HOME/bin:$PATH
-
-# # scala2.8.1.final
-# export SCALA_HOME=/opt/scala-2.8.1.final
-# PATH=$SCALA_HOME/bin:$PATH
-
-# SVM
-export SCALA_HOME=~/.svm/current/rt
-export PATH=$SCALA_HOME/bin:$PATH
 
 export PATH="~/.cask/bin:$PATH"

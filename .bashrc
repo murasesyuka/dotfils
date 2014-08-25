@@ -180,3 +180,4 @@ if [ -f ~/.nvm/nvm.sh ]; then
 fi
 
 
+export PATH="~/.cask/bin:$PATH"

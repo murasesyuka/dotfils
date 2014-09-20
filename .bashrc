@@ -139,13 +139,10 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
 fi
 
 ### self build
-export PATH=/usr/local/emacs/bin:$PATH # => 24.2
 # testing      build
 export PATH=$HOME/git/mruby/bin:$PATH
-export PATH=/usr/local/cmake-2.8.10/bin:$PATH
 
-export PATH=/usr/local/llvm-3.1/bin:$PATH
-export PATH=/usr/local/llvm-3.2/bin:$PATH
+export PATH=/usr/local/llvm-3.5/bin:$PATH
 # experimental build
 export PATH=$HOME/local/bin:$PATH
 

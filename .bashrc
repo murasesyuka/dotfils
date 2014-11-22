@@ -148,6 +148,7 @@ export PATH=$HOME/local/bin:$PATH
 
 ###
 
-
+# OCaml
+eval `opam config env`
 
 export PATH="~/.cask/bin:$PATH"

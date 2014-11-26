@@ -8,4 +8,5 @@ let () =
 #camlp4o;;
 #require "core.top";;
 #require "core.syntax";;
+open Core.Std
 

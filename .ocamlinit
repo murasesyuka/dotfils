@@ -3,10 +3,14 @@ let () =
   try Topdirs.dir_directory (Sys.getenv "OCAML_TOPLEVEL_PATH")
   with Not_found -> ()
 ;;
+
 #use "topfind";;
 #thread;;
 #camlp4o;;
 #require "core.top";;
 #require "core.syntax";;
+
 open Core.Std
 
+let printer ppf = Format.fprintf ppf "\"%s\"";;
+#install_printer printer

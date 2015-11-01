@@ -15,6 +15,7 @@
                 sh = !git-sh
         a = add
         aa = add -A
+        aw = !"git diff -w --no-color | git apply --cached"
         b = branch
 	        ba = branch -a
         sa = stash

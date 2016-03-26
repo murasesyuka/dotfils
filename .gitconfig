@@ -20,6 +20,7 @@
 	        ba = branch -a
         sa = stash
         sap = stash pop
+        sm = submodule
         di = diff
         dic = diff --cached
         r = reset
@@ -36,3 +37,7 @@
 
 [push]
 	default = simple
+
+[git-buildpackage]
+	upstream-tag = upstream%(version)s
+

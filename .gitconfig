@@ -17,18 +17,18 @@
         aa = add -A
         aw = !"git diff -w --no-color | git apply --cached"
         b = branch
-	        ba = branch -a
+                ba = branch -a
         sa = stash
         sap = stash pop
         sm = submodule
-                 sup = submodule update
-                 smup = submodule update
+                sup = submodule --quiet update
+                smup = submodule update
         di = diff
-        dic = diff --cached
+                dic = diff --cached
         r = reset
+        m = merge
         svnci = svn dcommit -e
         svnre = svn rebase
-        m = merge
         pullup = pull --ff-only upstream master
         lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
         lga = log --graph --all --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative

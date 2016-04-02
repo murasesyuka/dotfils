@@ -26,6 +26,8 @@
         di = diff
                 dic = diff --cached
         r = reset
+        re = remote
+                reup = remote uddate
         m = merge
         svnci = svn dcommit -e
         svnre = svn rebase

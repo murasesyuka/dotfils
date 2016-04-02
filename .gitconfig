@@ -21,7 +21,7 @@
         sa = stash
         sap = stash pop
         sm = submodule
-                sup = submodule --quiet update
+                sup = submodule update --recursive
                 smup = submodule update
         di = diff
                 dic = diff --cached

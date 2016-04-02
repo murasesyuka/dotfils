@@ -21,6 +21,8 @@
         sa = stash
         sap = stash pop
         sm = submodule
+                 sup = submodule update
+                 smup = submodule update
         di = diff
         dic = diff --cached
         r = reset

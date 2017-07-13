@@ -116,8 +116,8 @@ alias llgrep='ll | grep'
 alias v='vim'
 
 # Emacs
-alias nw='emacsclient --alternate-editor="" -t'		   # CUI
-alias e='emacsclient --alternate-editor="" --create-frame' # GUI
+alias nw='emacsclient.emacs24 --alternate-editor="" -t'		   # CUI
+alias e='emacs24' # GUI
 export EDITOR=emacsclient
 export VISUAL=emacsclient
 
@@ -152,7 +152,7 @@ export PATH=$HOME/local/bin:$PATH
 source ~/.cargo/env
 
 # OCaml
-eval `opam config env`
+# eval `opam config env`
 
 # golang setting
 # if [ -d /user/bin/go ]; then

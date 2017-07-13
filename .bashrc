@@ -148,7 +148,17 @@ export PATH=$HOME/local/bin:$PATH
 
 ###
 
+# Rust env
+source ~/.cargo/env
+
 # OCaml
 eval `opam config env`
+
+# golang setting
+# if [ -d /user/bin/go ]; then
+#     path=($HOME/local/go/bin /opt/go/bin $path)
+    # export GOROOT=/opt/go
+    export GOPATH=$HOME/go
+# fi
 
 export PATH="~/.cask/bin:$PATH"

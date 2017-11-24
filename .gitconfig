@@ -36,6 +36,7 @@
         lga = log --graph --all --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
 [core]
 	pager = lv -c
+	editor = vim -c \"set fenc=utf-8\"
 [merge]
         ff = false
 
